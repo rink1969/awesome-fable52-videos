@@ -708,7 +708,21 @@ def fmt_count(n):
     return str(n)
 
 
+def existing_posters():
+    """Poster paths fetched by tools/fetch_posters.py, keyed by slug, so a
+    rebuild does not lose them."""
+    path = os.path.join(ROOT, "data", "videos.json")
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            return {v["slug"]: v["poster"] for v in json.load(f) if v.get("poster")}
+    except Exception:
+        return {}
+
+
 def build_videos_json():
+    posters = existing_posters()
     out = []
     for e in ENTRIES:
         v = {
@@ -723,6 +737,8 @@ def build_videos_json():
             "prompt_partial": e["partial"],
             "added": ADDED,
         }
+        if e["slug"] in posters:
+            v["poster"] = posters[e["slug"]]
         if e.get("likes") is not None:
             v["likes"] = e["likes"]
         if e.get("views") is not None:
@@ -782,19 +798,28 @@ def build_prompt_files():
     return len(ENTRIES)
 
 
-def table_rows(entries):
-    rows = []
+def table_rows(entries, posters):
+    """Reference-style HTML table: 3 preview cards per row."""
+    cells = []
     for e in entries:
-        title = "[{}]({})".format(e["title"].replace("|", "\\|"), post_url(e))
-        author = "[@{}]({})".format(e["author"], author_url(e))
-        tech = " · ".join(e["tech"]) if e["tech"] else "—"
-        prompt = "[Prompt](prompts/%s.md)" % e["slug"]
-        likes = fmt_count(e.get("likes")) or ""
-        social = ("♥ " + likes) if likes else ""
-        dur = e.get("duration", "")
-        first = "{} {}".format(title, "({})".format(dur) if dur else "").strip()
-        rows.append("| {} | {} | {} | {} | {} |".format(first, author, tech, prompt, social))
-    return rows
+        alt = "Fable 5.2 video by @%s" % e["author"]
+        poster = posters.get(e["slug"])
+        if poster:
+            media = '<a href="%s"><img src="%s" alt="%s" width="100%%"></a>' % (
+                post_url(e), poster, alt.replace('"', ""))
+        else:
+            media = '<a href="%s"><b>%s</b></a>' % (post_url(e), e["title"])
+        cell = (
+            '<td width="33%%" valign="top">%s<br>'
+            '<a href="%s"><b>@%s</b></a> \u00b7 <a href="prompts/%s.md">Prompt</a><br>'
+            "<sub>%s</sub></td>"
+            % (media, post_url(e), e["author"], e["slug"], " \u00b7 ".join(e["tech"]))
+        )
+        cells.append(cell)
+    rows = []
+    for i in range(0, len(cells), 3):
+        rows.append("<tr>" + "".join(cells[i:i + 3]) + "</tr>")
+    return ["<table>"] + rows + ["</table>"]
 
 
 def build_readme():
@@ -802,6 +827,7 @@ def build_readme():
     for e in ENTRIES:
         by_cat.setdefault(e["category"], []).append(e)
     order = ["official", "motion", "3d", "games", "explainer"]
+    posters = existing_posters()
 
     L = []
     L.append("# Awesome Fable 5.2 Videos")
@@ -816,6 +842,7 @@ def build_readme():
     L.append("")
     n_prompts = sum(1 for e in ENTRIES if not e["partial"])
     L.append("- %d posts curated from X in [`data/videos.json`](data/videos.json), each with a page in [`prompts/`](prompts/)" % len(ENTRIES))
+    L.append("- Video cover images included in [`assets/posters/`](assets/posters/)")
     L.append("- %d of them include the creator's actual prompt, ready to copy" % n_prompts)
     L.append("- Every entry links to the creator's original post")
     L.append("- Latest update (2026-11-10): first collection, gathered on launch day")
@@ -834,9 +861,7 @@ def build_readme():
             continue
         L.append("## %s" % CATEGORIES[c])
         L.append("")
-        L.append("| Video | Creator | Built with | Prompt | ♥ |")
-        L.append("| --- | --- | --- | --- | --- |")
-        L.extend(table_rows(by_cat[c]))
+        L.extend(table_rows(by_cat[c], posters))
         L.append("")
     L.append("## How to use a prompt")
     L.append("")
