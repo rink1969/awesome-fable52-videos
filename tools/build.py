@@ -168,14 +168,6 @@ ENTRIES = [
               "@feishutoday (41 likes) and @guanmo_ai all posted it."),
     ),
     dict(
-        slug="yxzrainy-595551", author="YxzRainy", name="兴雨",
-        status="2119928520595935551",
-        title="Fable 5.2 + Opus 5.5 sub-agents — high-speed-camera 3D scene in 30 min",
-        category="3d", tech=["3D", "subagents"],
-        prompt="我尼玛😱！开什么玩笑？？？\n\nFable 5.2 加几个 Opus 5.5 子 Agent，30 分钟就能做出这种高速运镜的 3D 场景？？？\n\n这真的不是用其他工具提前渲染出来的？？？",
-        partial=True,
-    ),
-    dict(
         slug="stefan-3d-ai-694165", author="Stefan_3D_AI", name="Stefan 3D AI",
         status="2120041169719894165",
         title="September castle prompt re-run: Fable 5.2 vs Opus 5.5 (procedural Blender)",
@@ -213,14 +205,6 @@ ENTRIES = [
         title="Immersive 3D black-hole simulation in pure code",
         category="3d", tech=["3D", "simulation", "pure-code"],
         prompt="Fable 5.2 纯代码生成的 3D 黑洞模拟动画\n\n感觉就好像正在被黑洞吸进去一样。。。\n\n这沉浸感也太强了吧。。",
-        partial=True,
-    ),
-    dict(
-        slug="leo114119-883350", author="leo114119", name="Leo · Building w/ AI",
-        status="2119950111958831350",
-        title="Hyper-realistic Blender 3D video — 'the 3D-movie era for everyone?'",
-        category="3d", tech=["Blender", "3D"],
-        prompt="Claude Fable 5.2 +Blender 生成的 3D 视频\n\n这 TMD 也太真实了吧。。。\n\n人人都可以做 3D 电影的时代要到来了？",
         partial=True,
     ),
     dict(
@@ -262,14 +246,6 @@ ENTRIES = [
         category="3d", tech=["Blender"],
         prompt="Claude Fable 5.2\nBlender操作やっべーんやけどｗ",
         partial=True,
-    ),
-    dict(
-        slug="jamesda-259589", author="JamesDa55049936", name="路遥",
-        status="2120028680026259589",
-        title="Movie-grade effects straight out of Fable 5.2",
-        category="3d", tech=["3D", "cinematic"],
-        prompt="这fable 5.2 成精了吧，做的效果和电影效果一样了！！！ claude 你这是想要把电影演员们打失业啊！！！ 太卷了。",
-        partial=True, likes=6, views=424, duration="0:30",
     ),
 
     # ------------------------------------------------------ Motion graphics
@@ -525,20 +501,15 @@ ENTRIES = [
         partial=True, duration="0:34", views=12,
     ),
     dict(
-        slug="rjsonha-574444", author="RJasonHA", name="Fries",
-        status="2120041766363574444",
-        title="A cinematic stickman fight",
-        category="motion", tech=["stickman", "fight", "physics"],
-        prompt="电影级别制作的火柴人！！！ 🤣🤣 Fable 5.2已经完全具备制作火柴人电影的能力了，这个打斗和特效，感觉从制作逻辑上，代码制作有更严谨碰撞效果。",
-        partial=True, likes=10, views=387, duration="0:15",
-    ),
-    dict(
-        slug="yuziyyaa-471752", author="Yuziyyaa", name="Youzi",
-        status="2120031965034471752",
-        title="Stickman test — Fable 5.2 ($40) vs Opus 5.5 ($18)",
-        category="motion", tech=["stickman", "comparison"],
-        prompt="Fable 5.2这波Stickman测试简直夸张\n华丽的动作编排+慢动作镜头，已经把动画质量拉到离谱级别了！！\n\nFable 5.2 花费40💵Opus5.5  花费18💵\n用时上面Fable 5.2领先一分钟完成\n\n虽然花费更多，但是动作和效果上确实更值得回票！",
-        partial=True,
+        slug="danielzambrini-507954", author="DanielZambrini", name="Daniel Zambrini",
+        status="2119893834276507954",
+        title="The first stickman fight test — superb choreography, slow motion included ($40.36 vs Opus $18.88)",
+        category="motion", tech=["stickman", "fight", "comparison"],
+        prompt="FINALLY FABLE 5.2 IS HERE!!!\n\nAnd now we have the first Stickman fight test and as expected (or not) Anthropic outdid themselves.\n\nOutput is simply amazing, with a superb choreography that includes even a slow motion.\n\nCost ended up in 40.36$ vs 18.88$ from Opus.",
+        partial=True, likes=181, duration="0:15",
+        note=("The original stickman-fight demo — widely reposted, e.g. @RJasonHA "
+              "('cinematic stickman', 14 likes) and @Yuziyyaa ('Stickman test', 3 likes) "
+              "shared this exact video."),
     ),
     dict(
         slug="eianlu-409493", author="EianLu", name="Eian",

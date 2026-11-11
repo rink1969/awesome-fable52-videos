@@ -82,22 +82,6 @@
   "notes": "The most re-shared community video of launch day — @AndyL5cc (68 likes), @feishutoday (41 likes) and @guanmo_ai all posted it."
  },
  {
-  "slug": "yxzrainy-595551",
-  "author": "YxzRainy",
-  "author_url": "https://x.com/YxzRainy",
-  "post_url": "https://x.com/YxzRainy/status/2119928520595935551",
-  "title": "Fable 5.2 + Opus 5.5 sub-agents — high-speed-camera 3D scene in 30 min",
-  "category": "3d",
-  "tech_tags": [
-   "3D",
-   "subagents"
-  ],
-  "prompt": "我尼玛😱！开什么玩笑？？？\n\nFable 5.2 加几个 Opus 5.5 子 Agent，30 分钟就能做出这种高速运镜的 3D 场景？？？\n\n这真的不是用其他工具提前渲染出来的？？？",
-  "prompt_partial": true,
-  "added": "2026-11-10",
-  "poster": "assets/posters/yxzrainy-595551.webp"
- },
- {
   "slug": "stefan-3d-ai-694165",
   "author": "Stefan_3D_AI",
   "author_url": "https://x.com/Stefan_3D_AI",
@@ -190,22 +174,6 @@
   "poster": "assets/posters/leo114119-515723.webp"
  },
  {
-  "slug": "leo114119-883350",
-  "author": "leo114119",
-  "author_url": "https://x.com/leo114119",
-  "post_url": "https://x.com/leo114119/status/2119950111958831350",
-  "title": "Hyper-realistic Blender 3D video — 'the 3D-movie era for everyone?'",
-  "category": "3d",
-  "tech_tags": [
-   "Blender",
-   "3D"
-  ],
-  "prompt": "Claude Fable 5.2 +Blender 生成的 3D 视频\n\n这 TMD 也太真实了吧。。。\n\n人人都可以做 3D 电影的时代要到来了？",
-  "prompt_partial": true,
-  "added": "2026-11-10",
-  "poster": "assets/posters/leo114119-883350.webp"
- },
- {
   "slug": "leo114119-347445",
   "author": "leo114119",
   "author_url": "https://x.com/leo114119",
@@ -284,25 +252,6 @@
   "prompt_partial": true,
   "added": "2026-11-10",
   "poster": "assets/posters/seiiiiiiiiiiru-747313.webp"
- },
- {
-  "slug": "jamesda-259589",
-  "author": "JamesDa55049936",
-  "author_url": "https://x.com/JamesDa55049936",
-  "post_url": "https://x.com/JamesDa55049936/status/2120028680026259589",
-  "title": "Movie-grade effects straight out of Fable 5.2",
-  "category": "3d",
-  "tech_tags": [
-   "3D",
-   "cinematic"
-  ],
-  "prompt": "这fable 5.2 成精了吧，做的效果和电影效果一样了！！！ claude 你这是想要把电影演员们打失业啊！！！ 太卷了。",
-  "prompt_partial": true,
-  "added": "2026-11-10",
-  "poster": "assets/posters/jamesda-259589.webp",
-  "likes": 6,
-  "views": 424,
-  "duration": "0:30"
  },
  {
   "slug": "khazix0918-590834",
@@ -702,9 +651,9 @@
   "prompt": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds",
   "prompt_partial": true,
   "added": "2026-11-10",
+  "poster": "assets/posters/kevin-t-ngo-695818.webp",
   "likes": 4059,
-  "notes": "The dreamy Sky-like boat ride that went viral on launch day — widely reposted, e.g. @YxzRainy ('《光遇》-like aesthetics', 81 likes), @xKaka1456 (106 likes) and @fuxun233 (27 likes) all shared this exact video.",
-  "poster": "assets/posters/kevin-t-ngo-695818.webp"
+  "notes": "The dreamy Sky-like boat ride that went viral on launch day — widely reposted, e.g. @YxzRainy ('《光遇》-like aesthetics', 81 likes), @xKaka1456 (106 likes) and @fuxun233 (27 likes) all shared this exact video."
  },
  {
   "slug": "fiapp-pro-585134",
@@ -844,40 +793,24 @@
   "duration": "0:34"
  },
  {
-  "slug": "rjsonha-574444",
-  "author": "RJasonHA",
-  "author_url": "https://x.com/RJasonHA",
-  "post_url": "https://x.com/RJasonHA/status/2120041766363574444",
-  "title": "A cinematic stickman fight",
+  "slug": "danielzambrini-507954",
+  "author": "DanielZambrini",
+  "author_url": "https://x.com/DanielZambrini",
+  "post_url": "https://x.com/DanielZambrini/status/2119893834276507954",
+  "title": "The first stickman fight test — superb choreography, slow motion included ($40.36 vs Opus $18.88)",
   "category": "motion",
   "tech_tags": [
    "stickman",
    "fight",
-   "physics"
-  ],
-  "prompt": "电影级别制作的火柴人！！！ 🤣🤣 Fable 5.2已经完全具备制作火柴人电影的能力了，这个打斗和特效，感觉从制作逻辑上，代码制作有更严谨碰撞效果。",
-  "prompt_partial": true,
-  "added": "2026-11-10",
-  "poster": "assets/posters/rjsonha-574444.webp",
-  "likes": 10,
-  "views": 387,
-  "duration": "0:15"
- },
- {
-  "slug": "yuziyyaa-471752",
-  "author": "Yuziyyaa",
-  "author_url": "https://x.com/Yuziyyaa",
-  "post_url": "https://x.com/Yuziyyaa/status/2120031965034471752",
-  "title": "Stickman test — Fable 5.2 ($40) vs Opus 5.5 ($18)",
-  "category": "motion",
-  "tech_tags": [
-   "stickman",
    "comparison"
   ],
-  "prompt": "Fable 5.2这波Stickman测试简直夸张\n华丽的动作编排+慢动作镜头，已经把动画质量拉到离谱级别了！！\n\nFable 5.2 花费40💵Opus5.5  花费18💵\n用时上面Fable 5.2领先一分钟完成\n\n虽然花费更多，但是动作和效果上确实更值得回票！",
+  "prompt": "FINALLY FABLE 5.2 IS HERE!!!\n\nAnd now we have the first Stickman fight test and as expected (or not) Anthropic outdid themselves.\n\nOutput is simply amazing, with a superb choreography that includes even a slow motion.\n\nCost ended up in 40.36$ vs 18.88$ from Opus.",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/yuziyyaa-471752.webp"
+  "poster": "assets/posters/danielzambrini-507954.webp",
+  "likes": 181,
+  "duration": "0:15",
+  "notes": "The original stickman-fight demo — widely reposted, e.g. @RJasonHA ('cinematic stickman', 14 likes) and @Yuziyyaa ('Stickman test', 3 likes) shared this exact video."
  },
  {
   "slug": "eianlu-409493",
