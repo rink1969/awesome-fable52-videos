@@ -176,14 +176,6 @@ ENTRIES = [
         partial=True,
     ),
     dict(
-        slug="yxzrainy-555281", author="YxzRainy", name="兴雨",
-        status="2119936069877555281",
-        title="《Sky》-like aesthetics — light, color and atmosphere",
-        category="3d", tech=["3D", "aesthetics"],
-        prompt="感受一下 Claude Fable 5.2 的顶级审美 😭 这光影、配色和氛围感，真有《光遇》那味儿了好吧…… 有一说一，这审美 ChatGPT 得学十年 🤣 👌",
-        partial=True, likes=48, views=3318, duration="0:57",
-    ),
-    dict(
         slug="stefan-3d-ai-694165", author="Stefan_3D_AI", name="Stefan 3D AI",
         status="2120041169719894165",
         title="September castle prompt re-run: Fable 5.2 vs Opus 5.5 (procedural Blender)",
@@ -456,20 +448,15 @@ ENTRIES = [
         note="Creator: 'no prompt, just told fable 5.2 to go wild on the canvas... OH BOY 🧵' (thread).",
     ),
     dict(
-        slug="fuxun233-052799", author="fuxun233", name="Nori",
-        status="2120053721573052799",
-        title="Signature Claude aesthetics",
-        category="motion", tech=["aesthetics"],
-        prompt="Fable 5.2的作品，claude的审美一如既往的安心\n\n这是GPT一辈子都做不出来的内容",
-        partial=True,
-    ),
-    dict(
-        slug="xkaka1456-717666", author="xKaka1456", name="卡卡",
-        status="2120008408774717666",
-        title="Fable 5.2 interprets aesthetics",
-        category="motion", tech=["aesthetics"],
-        prompt="Fable 5.2 诠释审美\n\n说真的，三年前你要跟我说 AI 能做出这种效果，我肯定会笑你异想天开…\n\n但现在，一切皆有可能。",
-        partial=True,
+        slug="kevin-t-ngo-695818", author="kevin_t_ngo", name="Kevin Ngo",
+        status="2119868968307695818",
+        title="A boat ride through 8 dreamlike worlds — playable in the browser",
+        category="games", tech=["game", "playable", "3D", "aesthetics"],
+        prompt="Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds",
+        partial=True, likes=4059,
+        note=("The dreamy Sky-like boat ride that went viral on launch day — widely reposted, "
+              "e.g. @YxzRainy ('《光遇》-like aesthetics', 81 likes), @xKaka1456 (106 likes) "
+              "and @fuxun233 (27 likes) all shared this exact video."),
     ),
     dict(
         slug="fiapp-pro-585134", author="fiapp_pro", name="索螺丝",
