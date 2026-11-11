@@ -141,20 +141,23 @@
   "duration": "0:39"
  },
  {
-  "slug": "leo114119-141745",
-  "author": "leo114119",
-  "author_url": "https://x.com/leo114119",
-  "post_url": "https://x.com/leo114119/status/2119934826111451495",
-  "title": "Istanbul re-created in 3D, straight from code",
+  "slug": "petergostev-394520",
+  "author": "petergostev",
+  "author_url": "https://x.com/petergostev",
+  "post_url": "https://x.com/petergostev/status/2119877733488394520",
+  "title": "Istanbul re-created in 3D, straight from code (Fable 5.2 Max)",
   "category": "3d",
   "tech_tags": [
    "3D",
    "city"
   ],
-  "prompt": "Fable 5.2 直接用 3D 还原了整个城市\n\n土耳其的伊斯坦布尔\n\n还有比更疯狂的吗？\n\nFable 5.2 感觉完全是领先一个级别的模型啊。。。",
+  "prompt": "Istanbul by Fable 5.2 (Max) - next level stuff",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/leo114119-141745.webp"
+  "poster": "assets/posters/petergostev-394520.webp",
+  "likes": 2858,
+  "duration": "0:38",
+  "notes": "Reposted by @leo114119."
  },
  {
   "slug": "leo114119-515723",
@@ -174,20 +177,23 @@
   "poster": "assets/posters/leo114119-515723.webp"
  },
  {
-  "slug": "leo114119-347445",
-  "author": "leo114119",
-  "author_url": "https://x.com/leo114119",
-  "post_url": "https://x.com/leo114119/status/2119934353367347445",
-  "title": "Voxel floating pagoda — detail to the point of madness",
+  "slug": "luminabench-657696",
+  "author": "LuminaBench",
+  "author_url": "https://x.com/LuminaBench",
+  "post_url": "https://x.com/LuminaBench/status/2119907096636657696",
+  "title": "Voxel floating pagoda — a ridiculous amount of detail",
   "category": "3d",
   "tech_tags": [
    "voxels",
    "3D"
   ],
-  "prompt": "Fable 5.2构建的 3D 体素浮空宝塔\n\n精致的细节，到了疯狂的地步\n\n这种体素宝塔感觉已经完全体现不了 Fable 5.2的能力上限了。。",
+  "prompt": "Fable 5.2 Voxel Pagoda\n\nJust a ridiculous amount of detail",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/leo114119-347445.webp"
+  "poster": "assets/posters/luminabench-657696.webp",
+  "likes": 101,
+  "duration": "0:47",
+  "notes": "Reposted by @leo114119."
  },
  {
   "slug": "leo114119-673746",
@@ -207,21 +213,25 @@
   "poster": "assets/posters/leo114119-673746.webp"
  },
  {
-  "slug": "duoyun-77-045860",
-  "author": "duoyun_77",
-  "author_url": "https://x.com/duoyun_77",
-  "post_url": "https://x.com/duoyun_77/status/2120026864333045860",
-  "title": "A whole replicated Earth — weather synced with the real planet",
+  "slug": "mattshumer-036047",
+  "author": "mattshumer_",
+  "author_url": "https://x.com/mattshumer_",
+  "post_url": "https://x.com/mattshumer_/status/2119877065701036047",
+  "title": "Mirror Earth as a game — weather and more synced with the real planet in real time",
   "category": "3d",
   "tech_tags": [
    "3D",
    "earth",
-   "interactive"
+   "playable",
+   "game"
   ],
-  "prompt": "Fable 5.2 “复制”了一整个地球 🌍\n\n想去哪就去哪\n想拆就拆\n据说天气还跟真实地球同步 😱",
+  "prompt": "Fable 5.2 created a MIRROR EARTH as a game.\n\nGo anywhere. Destroy anything. Weather and more match the real Earth, in real-time.",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/duoyun-77-045860.webp"
+  "poster": "assets/posters/mattshumer-036047.webp",
+  "likes": 2309,
+  "duration": "0:56",
+  "notes": "Playable — link in the original post. Reposted by @duoyun_77."
  },
  {
   "slug": "khvostikk-889130",
@@ -535,37 +545,43 @@
   "notes": "Creator's verdict: '返朴归真，很自然流畅，但没有之前那些惊艳的拟真细节' (prompt via B站)."
  },
  {
-  "slug": "leo114119-630075",
-  "author": "leo114119",
-  "author_url": "https://x.com/leo114119",
-  "post_url": "https://x.com/leo114119/status/2119989377132630075",
+  "slug": "qingzhoucloud-007025",
+  "author": "qingzhoucloud",
+  "author_url": "https://x.com/qingzhoucloud",
+  "post_url": "https://x.com/qingzhoucloud/status/2119971615476007025",
   "title": "A peacock riding a bicycle — and it even displays its tail",
   "category": "motion",
   "tech_tags": [
    "SVG",
    "peacock"
   ],
-  "prompt": "Claude Fable 5.2生成的孔雀骑车 SVG 动画\n\n孔雀还会开屏，这你受得了吗？",
+  "prompt": "Claude Fable 5.2我的第一轮测试，孔雀骑车\n效果挺满意的，审美在线，颜色艳丽。\n5h额度用去了-63%，fable额度用了-21%，卧槽...这也太费了，没法跑下一个了。\n\n推理：高\n时间：35分钟",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/leo114119-630075.webp"
+  "poster": "assets/posters/qingzhoucloud-007025.webp",
+  "likes": 17,
+  "duration": "0:17",
+  "notes": "Reposted by @leo114119."
  },
  {
-  "slug": "leo114119-037293",
-  "author": "leo114119",
-  "author_url": "https://x.com/leo114119",
-  "post_url": "https://x.com/leo114119/status/2119945755100373293",
-  "title": "Pelican-ception: a bicycle riding a pelican riding a bicycle",
+  "slug": "dummerspast39-432389",
+  "author": "dummerspast39",
+  "author_url": "https://x.com/dummerspast39",
+  "post_url": "https://x.com/dummerspast39/status/2119889279740432389",
+  "title": "Pelican-ception: a controller riding a bicycle riding a pelican riding a bicycle",
   "category": "motion",
   "tech_tags": [
    "SVG",
    "pelican",
    "recursion"
   ],
-  "prompt": "Fable 5.2 经典项目 ：\n\n骑自行车的控制器骑着骑鹈鹕的自行车骑着骑自行车的鹈鹕\n\n动画细节的刻画更细了：还多了一些喂食的小动画\n\n老实说 对于Fable 5.2，这种动画测试已经完全没有难度",
+  "prompt": "Fable 5.2: Controller riding bicycle riding pelican riding bicycle riding pelican",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/leo114119-037293.webp"
+  "poster": "assets/posters/dummerspast39-432389.webp",
+  "likes": 82,
+  "duration": "0:15",
+  "notes": "Reposted by @leo114119."
  },
  {
   "slug": "aziz4ai-200726",
@@ -982,10 +998,10 @@
   "duration": "0:55"
  },
  {
-  "slug": "aiwaremax-701089",
-  "author": "aiwaremax",
-  "author_url": "https://x.com/aiwaremax",
-  "post_url": "https://x.com/aiwaremax/status/2119942626325701089",
+  "slug": "flavioad-059127",
+  "author": "flavioAd",
+  "author_url": "https://x.com/flavioAd",
+  "post_url": "https://x.com/flavioAd/status/2119876761299059127",
   "title": "A Zelda-like world re-created — modeling, shadows, ambient light",
   "category": "games",
   "tech_tags": [
@@ -993,37 +1009,40 @@
    "zelda",
    "3D"
   ],
-  "prompt": "游戏和视频行业又一次被震惊到了吗 Claude Fable 5.2 再造了一个塞尔达传说 人物建模、动作影子、环境光效 不标注，这TM谁知道是AI生成的啊",
+  "prompt": "WOW Claude Fable 5.2 is insanely good at 3D",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/aiwaremax-701089.webp",
-  "views": 88,
-  "duration": "0:25"
+  "poster": "assets/posters/flavioad-059127.webp",
+  "likes": 759,
+  "duration": "0:24",
+  "notes": "Reposted by @aiwaremax."
  },
  {
-  "slug": "leo114119-223795",
-  "author": "leo114119",
-  "author_url": "https://x.com/leo114119",
-  "post_url": "https://x.com/leo114119/status/2119999332682223795",
-  "title": "One-click remake of NetEase's 'Eggy Party'",
+  "slug": "matthewberman-254665",
+  "author": "MatthewBerman",
+  "author_url": "https://x.com/MatthewBerman",
+  "post_url": "https://x.com/MatthewBerman/status/2119868630989254665",
+  "title": "The most complete Fall Guys a model has made — multiplayer, one try",
   "category": "games",
   "tech_tags": [
    "game",
-   "remake"
+   "fall-guys",
+   "multiplayer",
+   "one-shot"
   ],
-  "prompt": "Fable 5.2 一键复刻“蛋仔派对”小游戏 这大模型要早点放出来，都没网易什么事了。。",
+  "prompt": "This is the most complete version of Fall Guys I've seen a model create. It only took 1 try...\n\nIt also has multiplayer. This is ACTUALLY fun.",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/leo114119-223795.webp",
-  "likes": 11,
-  "views": 1104,
-  "duration": "0:47"
+  "poster": "assets/posters/matthewberman-254665.webp",
+  "likes": 96,
+  "duration": "0:47",
+  "notes": "Reposted by @leo114119 (framed as a 'Eggy Party' remake)."
  },
  {
-  "slug": "futurestacked-221889",
-  "author": "FutureStacked",
-  "author_url": "https://x.com/FutureStacked",
-  "post_url": "https://x.com/FutureStacked/status/2120066532856221889",
+  "slug": "bhertzog-821809",
+  "author": "bhertzog",
+  "author_url": "https://x.com/bhertzog",
+  "post_url": "https://x.com/bhertzog/status/2119965482094821809",
   "title": "The iPhone Duo becomes a holographic projector",
   "category": "games",
   "tech_tags": [
@@ -1031,13 +1050,13 @@
    "demo",
    "hardware-concept"
   ],
-  "prompt": "The iPhone Duo becomes a holographic projector in this demo built with Claude Fable 5.2.",
+  "prompt": "Okay Fable cooked on this 🤯",
   "prompt_partial": true,
   "added": "2026-11-10",
-  "poster": "assets/posters/futurestacked-221889.webp",
-  "likes": 2,
-  "views": 233,
-  "duration": "0:18"
+  "poster": "assets/posters/bhertzog-821809.webp",
+  "likes": 714,
+  "duration": "0:18",
+  "notes": "Reposted by @FutureStacked ('The iPhone Duo becomes a holographic projector in this demo built with Claude Fable 5.2')."
  },
  {
   "slug": "diegocabezas01-866912",
